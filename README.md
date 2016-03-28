@@ -70,5 +70,5 @@ return [[ELNScrollViewController alloc] initWithContentViewController:viewContro
 # download source code, fix bugs, implement new features
 
 pod repo add legion https://github.com/elegion/ios-podspecs
-pod repo push legion ELNContaierControllers.podspec
+pod repo push legion ELNContainerControllers.podspec
 ```
