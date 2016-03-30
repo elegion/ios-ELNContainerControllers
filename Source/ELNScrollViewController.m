@@ -184,16 +184,7 @@ static UIViewAnimationOptions ELNAnimationOptionsFromAnimationCurve(NSUInteger c
 #pragma mark - Container View Controller
 
 - (void)willRemoveContentViewController {
-    if ([self.contentViewController conformsToProtocol:@protocol(ELNScrollableViewController)]) {
-        [(id<ELNScrollableViewController>)self.contentViewController setScrollViewController:nil];
-    }
     self.contentHeight = nil;
-}
-
-- (void)willSetContentViewController {
-    if ([self.contentViewController conformsToProtocol:@protocol(ELNScrollableViewController)]) {
-        [(id<ELNScrollableViewController>)self.contentViewController setScrollViewController:self];
-    }
 }
 
 - (void)insertContentViewControllerSubview {
@@ -247,6 +238,20 @@ static UIViewAnimationOptions ELNAnimationOptionsFromAnimationCurve(NSUInteger c
     CGRect frameInView = [self.view convertRect:frameEnd fromView:nil];
     self.keyboardBottomInset = MAX(self.scrollView.bounds.size.height - frameInView.origin.y, 0);
     [self.view layoutIfNeeded];
+}
+
+@end
+
+@implementation UIViewController (ELNScrollViewController)
+
+- (ELNScrollViewController *)eln_scrollViewController {
+    UIViewController *viewController = self.parentViewController;
+    
+    while (viewController != nil && ![viewController isKindOfClass:[ELNScrollViewController class]]) {
+        viewController = viewController.parentViewController;
+    }
+    
+    return nil;
 }
 
 @end

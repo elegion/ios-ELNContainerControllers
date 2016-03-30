@@ -8,18 +8,16 @@
 
 #import "ELNContainerViewController.h"
 
-@class ELNScrollViewController;
-
-@protocol ELNScrollableViewController <NSObject>
-
-@property (nonatomic, weak) ELNScrollViewController *scrollViewController;
-
-@end
-
 /// View controller that manages content inside a scroll view.
 @interface ELNScrollViewController : ELNContainerViewController
 
 @property (nonatomic, strong, readonly) UIScrollView *scrollView;
 @property (nonatomic, strong, readonly) UIView *scrollContentView;
+
+@end
+
+@interface UIViewController (ELNScrollViewController)
+
+@property (nonatomic, weak, readonly) ELNScrollViewController *eln_scrollViewController;
 
 @end

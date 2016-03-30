@@ -12,7 +12,6 @@
 		11EC34D41CA56C6B00909F3E /* ELNContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34CE1CA56C6B00909F3E /* ELNContainerViewController.m */; };
 		11EC34D51CA56C6B00909F3E /* ELNScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EC34CF1CA56C6B00909F3E /* ELNScrollViewController.h */; };
 		11EC34D61CA56C6B00909F3E /* ELNScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34D01CA56C6B00909F3E /* ELNScrollViewController.m */; };
-		11EC34D71CA56C6B00909F3E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11EC34D11CA56C6B00909F3E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,7 +144,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EC34D71CA56C6B00909F3E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
