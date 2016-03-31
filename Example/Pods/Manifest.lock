@@ -1,0 +1,14 @@
+PODS:
+  - ELNContainerControllers (0.1.0)
+
+DEPENDENCIES:
+  - ELNContainerControllers (from `../`)
+
+EXTERNAL SOURCES:
+  ELNContainerControllers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ELNContainerControllers: b4c50a64c5d90f74c847bbe452ddd63489f91ead
+
+COCOAPODS: 0.39.0

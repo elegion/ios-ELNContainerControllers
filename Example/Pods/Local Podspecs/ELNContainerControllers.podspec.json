@@ -1,0 +1,21 @@
+{
+  "name": "ELNContainerControllers",
+  "version": "0.1.0",
+  "summary": "Container controllers collection.",
+  "homepage": "https://github.com/elegion/ios-ELNContainerControllers",
+  "license": "MIT",
+  "authors": {
+    "chebur": "chebur.mail@gmail.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/elegion/ios-ELNContainerControllers.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "Source",
+    "Source/**/*.{h,m}"
+  ]
+}

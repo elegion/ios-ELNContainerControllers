@@ -16,7 +16,6 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ViewController *viewController = [ViewController new];
     ELNScrollViewController *scrollViewController = [[ELNScrollViewController alloc] initWithContentViewController:viewController];

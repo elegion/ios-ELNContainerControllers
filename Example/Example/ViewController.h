@@ -6,12 +6,10 @@
 //  Copyright © 2016 e-legion. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "../../Source/ELNScrollViewController.h"
+#import <ELNScrollViewController.h>
 
-@interface ViewController : UIViewController <ELNScrollableViewController>
+@interface ViewController : UIViewController
 
-@property (nonatomic, weak) ELNScrollViewController *scrollViewController;
 
 @end
 
