@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9E12D6ED9C3749679533C60F'
+               BlueprintIdentifier = '0ABFEFE33A7D7F272EA02769'
                BlueprintName = 'ELNContainerControllers'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libELNContainerControllers.a'>

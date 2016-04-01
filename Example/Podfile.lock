@@ -1,5 +1,5 @@
 PODS:
-  - ELNContainerControllers (0.1.0)
+  - ELNContainerControllers (0.1.2)
 
 DEPENDENCIES:
   - ELNContainerControllers (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ELNContainerControllers: b4c50a64c5d90f74c847bbe452ddd63489f91ead
+  ELNContainerControllers: 0d5286d4fe0e5d056bba11981aaccdf79f231a9f
 
 COCOAPODS: 0.39.0

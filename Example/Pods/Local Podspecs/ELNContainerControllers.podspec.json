@@ -1,6 +1,6 @@
 {
   "name": "ELNContainerControllers",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Container controllers collection.",
   "homepage": "https://github.com/elegion/ios-ELNContainerControllers",
   "license": "MIT",
@@ -12,10 +12,7 @@
   },
   "source": {
     "git": "https://github.com/elegion/ios-ELNContainerControllers.git",
-    "tag": "0.1.0"
+    "tag": "v0.1.2"
   },
-  "source_files": [
-    "Source",
-    "Source/**/*.{h,m}"
-  ]
+  "source_files": "Source/**/*"
 }
