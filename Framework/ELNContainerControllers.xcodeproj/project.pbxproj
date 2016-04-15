@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11EC34D21CA56C6B00909F3E /* ELNContainerControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EC34CC1CA56C6B00909F3E /* ELNContainerControllers.h */; };
-		11EC34D31CA56C6B00909F3E /* ELNContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EC34CD1CA56C6B00909F3E /* ELNContainerViewController.h */; };
-		11EC34D41CA56C6B00909F3E /* ELNContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34CE1CA56C6B00909F3E /* ELNContainerViewController.m */; };
-		11EC34D51CA56C6B00909F3E /* ELNScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EC34CF1CA56C6B00909F3E /* ELNScrollViewController.h */; };
-		11EC34D61CA56C6B00909F3E /* ELNScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34D01CA56C6B00909F3E /* ELNScrollViewController.m */; };
+		113E5A741CC11C7D00E44B13 /* ELNContainerControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E5A6F1CC11C7D00E44B13 /* ELNContainerControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E5A751CC11C7D00E44B13 /* ELNContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E5A701CC11C7D00E44B13 /* ELNContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E5A761CC11C7D00E44B13 /* ELNContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5A711CC11C7D00E44B13 /* ELNContainerViewController.m */; };
+		113E5A771CC11C7D00E44B13 /* ELNScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E5A721CC11C7D00E44B13 /* ELNScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E5A781CC11C7D00E44B13 /* ELNScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5A731CC11C7D00E44B13 /* ELNScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		113E5A6C1CC11C5B00E44B13 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Default.xcconfig; path = ../Framework/Default.xcconfig; sourceTree = "<group>"; };
+		113E5A6F1CC11C7D00E44B13 /* ELNContainerControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNContainerControllers.h; sourceTree = "<group>"; };
+		113E5A701CC11C7D00E44B13 /* ELNContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNContainerViewController.h; sourceTree = "<group>"; };
+		113E5A711CC11C7D00E44B13 /* ELNContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNContainerViewController.m; sourceTree = "<group>"; };
+		113E5A721CC11C7D00E44B13 /* ELNScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNScrollViewController.h; sourceTree = "<group>"; };
+		113E5A731CC11C7D00E44B13 /* ELNScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNScrollViewController.m; sourceTree = "<group>"; };
+		113E5A791CC11CAF00E44B13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		11EC34C01CA55B0400909F3E /* ELNContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EC34CC1CA56C6B00909F3E /* ELNContainerControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNContainerControllers.h; sourceTree = "<group>"; };
-		11EC34CD1CA56C6B00909F3E /* ELNContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNContainerViewController.h; sourceTree = "<group>"; };
-		11EC34CE1CA56C6B00909F3E /* ELNContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNContainerViewController.m; sourceTree = "<group>"; };
-		11EC34CF1CA56C6B00909F3E /* ELNScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNScrollViewController.h; sourceTree = "<group>"; };
-		11EC34D01CA56C6B00909F3E /* ELNScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNScrollViewController.m; sourceTree = "<group>"; };
-		11EC34D11CA56C6B00909F3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11EC34D91CA56CA000909F3E /* Default.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +36,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113E5A6E1CC11C7D00E44B13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				113E5A6F1CC11C7D00E44B13 /* ELNContainerControllers.h */,
+				113E5A701CC11C7D00E44B13 /* ELNContainerViewController.h */,
+				113E5A711CC11C7D00E44B13 /* ELNContainerViewController.m */,
+				113E5A721CC11C7D00E44B13 /* ELNScrollViewController.h */,
+				113E5A731CC11C7D00E44B13 /* ELNScrollViewController.m */,
+				113E5A7B1CC11CB300E44B13 /* Supporting Files */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		113E5A7B1CC11CB300E44B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				113E5A6C1CC11C5B00E44B13 /* Default.xcconfig */,
+				113E5A791CC11CAF00E44B13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		11EC34B61CA55B0400909F3E = {
 			isa = PBXGroup;
 			children = (
-				11EC34D91CA56CA000909F3E /* Default.xcconfig */,
 				11EC34C11CA55B0400909F3E /* Products */,
-				11EC34CB1CA56C6B00909F3E /* Source */,
+				113E5A6E1CC11C7D00E44B13 /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,27 +75,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11EC34CB1CA56C6B00909F3E /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				11EC34CD1CA56C6B00909F3E /* ELNContainerViewController.h */,
-				11EC34CE1CA56C6B00909F3E /* ELNContainerViewController.m */,
-				11EC34CF1CA56C6B00909F3E /* ELNScrollViewController.h */,
-				11EC34D01CA56C6B00909F3E /* ELNScrollViewController.m */,
-				11EC34D81CA56C6F00909F3E /* Supporting Files */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		11EC34D81CA56C6F00909F3E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				11EC34CC1CA56C6B00909F3E /* ELNContainerControllers.h */,
-				11EC34D11CA56C6B00909F3E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -81,9 +82,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EC34D21CA56C6B00909F3E /* ELNContainerControllers.h in Headers */,
-				11EC34D51CA56C6B00909F3E /* ELNScrollViewController.h in Headers */,
-				11EC34D31CA56C6B00909F3E /* ELNContainerViewController.h in Headers */,
+				113E5A741CC11C7D00E44B13 /* ELNContainerControllers.h in Headers */,
+				113E5A771CC11C7D00E44B13 /* ELNScrollViewController.h in Headers */,
+				113E5A751CC11C7D00E44B13 /* ELNContainerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EC34D41CA56C6B00909F3E /* ELNContainerViewController.m in Sources */,
-				11EC34D61CA56C6B00909F3E /* ELNScrollViewController.m in Sources */,
+				113E5A761CC11C7D00E44B13 /* ELNContainerViewController.m in Sources */,
+				113E5A781CC11C7D00E44B13 /* ELNScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +165,7 @@
 /* Begin XCBuildConfiguration section */
 		11EC34C61CA55B0400909F3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11EC34D91CA56CA000909F3E /* Default.xcconfig */;
+			baseConfigurationReference = 113E5A6C1CC11C5B00E44B13 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -213,7 +214,7 @@
 		};
 		11EC34C71CA55B0400909F3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11EC34D91CA56CA000909F3E /* Default.xcconfig */;
+			baseConfigurationReference = 113E5A6C1CC11C5B00E44B13 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -261,7 +262,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNContainerControllers";
@@ -277,7 +278,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNContainerControllers";
