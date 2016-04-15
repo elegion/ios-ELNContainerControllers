@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "../../Source/ELNScrollViewController.h"
+#import <ELNContainerControllers/ELNContainerControllers.h>
 
 @interface AppDelegate ()
 

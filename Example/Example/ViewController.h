@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "../../Source/ELNScrollViewController.h"
 
-@interface ViewController : UIViewController <ELNScrollableViewController>
-
-@property (nonatomic, weak) ELNScrollViewController *scrollViewController;
+@interface ViewController : UIViewController
 
 @end
 

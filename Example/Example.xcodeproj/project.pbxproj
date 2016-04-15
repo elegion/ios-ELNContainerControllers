@@ -7,29 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113E5A841CC11D4800E44B13 /* ELNContainerControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113E5A831CC11D4100E44B13 /* ELNContainerControllers.framework */; };
 		11EC34EC1CA572E900909F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34EB1CA572E900909F3E /* main.m */; };
 		11EC34EF1CA572E900909F3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34EE1CA572E900909F3E /* AppDelegate.m */; };
 		11EC34F21CA572E900909F3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC34F11CA572E900909F3E /* ViewController.m */; };
 		11EC34F71CA572E900909F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EC34F61CA572E900909F3E /* Assets.xcassets */; };
 		11EC34FA1CA572E900909F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EC34F81CA572E900909F3E /* LaunchScreen.storyboard */; };
-		11EC35071CA574D100909F3E /* ELNContainerControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EC35061CA5734F00909F3E /* ELNContainerControllers.framework */; };
-		11EC35081CA574D100909F3E /* ELNContainerControllers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11EC35061CA5734F00909F3E /* ELNContainerControllers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11EC350D1CA574FC00909F3E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EC350C1CA574FC00909F3E /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11EC35051CA5734F00909F3E /* PBXContainerItemProxy */ = {
+		113E5A821CC11D4100E44B13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 11EC35011CA5734F00909F3E /* ELNContainerControllers.xcodeproj */;
+			containerPortal = 113E5A7E1CC11D4100E44B13 /* ELNContainerControllers.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 11EC34C01CA55B0400909F3E;
-			remoteInfo = ELNContainerControllers;
-		};
-		11EC35091CA574D100909F3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11EC35011CA5734F00909F3E /* ELNContainerControllers.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 11EC34BF1CA55B0400909F3E;
 			remoteInfo = ELNContainerControllers;
 		};
 /* End PBXContainerItemProxy section */
@@ -41,7 +33,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				11EC35081CA574D100909F3E /* ELNContainerControllers.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		113E5A7E1CC11D4100E44B13 /* ELNContainerControllers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ELNContainerControllers.xcodeproj; path = ../Framework/ELNContainerControllers.xcodeproj; sourceTree = "<group>"; };
 		11EC34E71CA572E900909F3E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EC34EB1CA572E900909F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11EC34ED1CA572E900909F3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +50,6 @@
 		11EC34F61CA572E900909F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11EC34F91CA572E900909F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11EC34FB1CA572E900909F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11EC35011CA5734F00909F3E /* ELNContainerControllers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ELNContainerControllers.xcodeproj; path = ../../ELNContainerControllers.xcodeproj; sourceTree = "<group>"; };
 		11EC350C1CA574FC00909F3E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,16 +58,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EC35071CA574D100909F3E /* ELNContainerControllers.framework in Frameworks */,
+				113E5A841CC11D4800E44B13 /* ELNContainerControllers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113E5A7F1CC11D4100E44B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113E5A831CC11D4100E44B13 /* ELNContainerControllers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		11EC34DE1CA572E900909F3E = {
 			isa = PBXGroup;
 			children = (
+				113E5A7E1CC11D4100E44B13 /* ELNContainerControllers.xcodeproj */,
 				11EC34E91CA572E900909F3E /* Example */,
 				11EC34E81CA572E900909F3E /* Products */,
 			);
@@ -93,7 +93,6 @@
 		11EC34E91CA572E900909F3E /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				11EC35011CA5734F00909F3E /* ELNContainerControllers.xcodeproj */,
 				11EC34ED1CA572E900909F3E /* AppDelegate.h */,
 				11EC34EE1CA572E900909F3E /* AppDelegate.m */,
 				11EC34F01CA572E900909F3E /* ViewController.h */,
@@ -115,14 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		11EC35021CA5734F00909F3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				11EC35061CA5734F00909F3E /* ELNContainerControllers.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,7 +129,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				11EC350A1CA574D100909F3E /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -172,8 +162,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 11EC35021CA5734F00909F3E /* Products */;
-					ProjectRef = 11EC35011CA5734F00909F3E /* ELNContainerControllers.xcodeproj */;
+					ProductGroup = 113E5A7F1CC11D4100E44B13 /* Products */;
+					ProjectRef = 113E5A7E1CC11D4100E44B13 /* ELNContainerControllers.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -184,11 +174,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		11EC35061CA5734F00909F3E /* ELNContainerControllers.framework */ = {
+		113E5A831CC11D4100E44B13 /* ELNContainerControllers.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ELNContainerControllers.framework;
-			remoteRef = 11EC35051CA5734F00909F3E /* PBXContainerItemProxy */;
+			remoteRef = 113E5A821CC11D4100E44B13 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -218,14 +208,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		11EC350A1CA574D100909F3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNContainerControllers;
-			targetProxy = 11EC35091CA574D100909F3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		11EC34F81CA572E900909F3E /* LaunchScreen.storyboard */ = {
