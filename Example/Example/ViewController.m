@@ -14,11 +14,6 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-}
-
 - (IBAction)buttonTapped:(id)sender {
     [self.navigationController pushViewController:[UIViewController new] animated:YES];
 }

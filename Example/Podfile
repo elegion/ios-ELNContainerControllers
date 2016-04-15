@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/elegion/ios-podspecs.git'
+
+target 'Example', :exclusive => true do
+    pod 'ELNContainerControllers', :path => '../'
+end
+
+target 'ExampleTests', :exclusive => true do
+    pod 'ELNContainerControllers', :path => '../'
+end

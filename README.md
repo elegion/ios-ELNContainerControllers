@@ -13,7 +13,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/elegion/ios-podspecs'
 
-pod 'ELNConatinerControllers' 
+pod 'ELNContainerControllers' 
 ```
 
 ###Carthage
