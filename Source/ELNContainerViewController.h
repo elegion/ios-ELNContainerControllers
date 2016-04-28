@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface ELNContainerViewController : UIViewController
 
-@property (nonatomic, strong) UIViewController *contentViewController;
+@property (nonatomic, strong, nullable) UIViewController *contentViewController;
 
-- (instancetype)initWithContentViewController:(UIViewController *)contentViewController;
+- (instancetype)initWithContentViewController:(nullable UIViewController *)contentViewController;
 
 /// Called before removing content view controller
 - (void)willRemoveContentViewController;
@@ -26,3 +28,5 @@
 - (void)insertContentViewControllerSubview;
 
 @end
+
+NS_ASSUME_NONNULL_END
